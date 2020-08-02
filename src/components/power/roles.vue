@@ -326,6 +326,7 @@ export default {
       if (res.meta.status !== 200) {
         return this.$message.error('删除权限失败！')
       }
+      this.$message.success('删除权限成功！')
       role.children = res.data
     },
     // 展示分配权限的对话框
