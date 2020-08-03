@@ -47,6 +47,7 @@
           <el-button type="danger" icon="el-icon-delete" size="mini" @click="removeCateById(scope.row.cat_id)">删除</el-button>
         </template>
       </tree-table>
+
       <!-- 分页区域 -->
       <el-pagination
         @size-change="handleSizeChange"
